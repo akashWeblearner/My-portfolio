@@ -1,0 +1,312 @@
+/* header */
+
+
+.left-logo{
+    display: none;
+}
+.menu-icon{
+    display: none;
+}
+@media screen and (max-width:965px) {
+  .rightnav{
+    display: none;
+  }
+  .leftnav{
+    display: none;
+  }
+  header{
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(9, 9, 9);
+    border-bottom: #ea0909 5px solid ;
+  }
+  .left-logo{
+    display: block;
+    height: 100%;
+
+    
+}
+.left-logo img{
+    height: 100%;
+object-fit: cover;
+
+}
+.menu-icon{
+    display: block;
+    color: white;
+    font-size: 6vw;
+    
+}
+
+/* hero */
+
+.hero{
+    padding-top: 13vw;
+    height: fit-content;
+    flex-direction: column-reverse;
+    padding-bottom: 9vw;
+   background:black;
+  
+}
+
+@keyframes userimg {
+  0% {
+      filter: grayscale(1);
+      transform: scale(1);
+  }
+
+  50% {
+   
+      box-shadow: 3px 3px 10px rgb(94, 92, 92);
+  }
+}
+
+.hero-right{
+  width: 50%;
+}
+.hero-left{
+  width: 100%;
+  gap: 2vw;
+  padding-bottom: 5vw;
+  color: white;
+ 
+}
+.role{
+  color: red;
+}
+.hero-btn{
+  background-color: #ea0909;
+}
+.hero-heading{
+  font-size: 6vw;
+}
+footer{
+  height: 20vh;
+}
+.page2{
+  background-color: black;
+}
+
+.page4{
+  background-color: black;
+}
+footer{
+  background-color: black;
+  border-top: 5px solid red;
+}
+.skill-text{
+  color: aliceblue;
+}
+.project-skill-container{
+  width: 80%;
+}
+.form-filled{
+  background: none;
+  border: none;
+  border-bottom: rgb(153, 147, 147) 2px solid ;
+  color: red;
+}
+.textarea{
+  border: 2px solid  rgb(153, 147, 147);
+}
+
+
+}
+@media screen and (max-width:965px) , screen and (orientation: landscape) {
+  footer{
+height: 50vh;
+  }
+}
+
+
+
+
+@media screen and (max-width:568px) {
+    .menu-icon{
+        font-size: 8vw;
+    }
+    .hero-right{
+      width: 100%;
+    }
+    .hero-heading{
+      font-size: 9vw;
+    }
+    .sub-heading{
+      font-size: 5vw;
+    }
+    .role{
+      font-size: 5vw;
+    }
+    .hero-desc{
+      font-size: 4vw;
+    }
+    .hero-btn a{
+      font-size: 4vw;
+    }
+    .faded-text{
+      top: 810px;
+    }
+    .flexbox{
+      width: 100%;
+    }
+    .page3-imgbox, .page3-content{
+      width: 100%;
+        }
+        .p4head{
+          font-size: 8vw;
+        }
+        .p4sub-Head{
+          font-size: 5vw;
+        }
+        .form-filled{
+          font-size: 4vw;
+        }
+        footer{
+          height: 20vh;
+        }
+
+        .project-subHeading {
+          width: 90%;
+          font-size: 3vw;
+        }
+        .page2heading {
+        
+          font-size: 9vw;
+        }
+
+
+
+}
+@media screen and (max-width: 1200px) {
+  .project-container{
+  /* background: #ea0909; */
+  width: 100%;
+  margin: 0px;
+  }
+  .card{
+  position: relative;
+    width: 100%;
+    height: 50vw;
+  }
+  #card1, #card3{
+    margin-left: 0px;
+  }
+  .cardcontent{
+    position: absolute;
+  }
+
+  .faded-text{
+    bottom: -52%;
+  }
+  .flexbox{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page3-imgbox, .page3-content{
+width: 80%;
+  }
+  .form-container{
+    width: 100%;
+  }
+  .ft-container{
+    width: 100%;
+gap: 4vw;
+    flex-wrap: wrap;
+   
+  }
+  .text-link{
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+   
+
+  }
+  .icon-link{
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 90%;
+  }
+  .projectHeading {
+    font-size: 7vw;
+    font-weight: bold;
+    line-height: 3vw;
+}
+}
+
+@media screen and (max-width: 694px){
+  .skill-text{
+    order: 9;
+    font-size: 10vw;
+    position: static;
+  }
+  .flexbox{
+ 
+    row-gap: 5vw;
+    width: 100%;
+    
+  }
+  .page3-imgbox, .page3-content{
+    width: 100%;
+      }
+      .page3-imgbox{
+        row-gap: 1vw;
+        height: 50%;
+        width: 95%;
+       
+      }
+
+      .skill-logo{
+        width: 10vw;
+      }
+      .page3-content{
+       width: 92%;
+      }
+      footer{
+        height: 50%;
+        padding-bottom: 5vw;
+      }
+     
+      .project-skill{
+        width: 6vw;
+      }
+      
+
+.cardcontent{
+  gap: 2vw;
+} 
+      
+
+.projectHeading{
+font-size: 4vw;
+}
+.project-skill-container{
+  width: 70%;
+}
+
+
+}
+
+@media screen and (max-width:800px){
+  .card:hover .cardcontent {
+    transform: scale(1.1);
+}
+.cardcontent{
+  left: 4vw;
+ }
+
+}
+@media screen and (max-width:900px){
+ .cardnum{
+  top: -8vw;
+  left: 0vw;
+ }
+ .blob-style {
+
+  height: 30vw;
+  
+}
+
+}
